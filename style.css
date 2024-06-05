@@ -1,0 +1,39 @@
+body {
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/img/rick-sanchez-rick-and-morty-hd-wallpaper-uhdpaper.com-216@0@j.jpg);
+    background-attachment: fixed;
+}
+
+.encabezado {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #a96fdf;   
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.innerCont {
+    background-color: #4f377b;
+    margin: 30px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+img {
+    border-radius: 30px;
+    border-image-repeat: round;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
