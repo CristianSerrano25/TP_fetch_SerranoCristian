@@ -4,7 +4,8 @@ const procesarfetch = async () => {
     try {
         const respuesta = await fetch(link);
         const info = await respuesta.json();
-        const personajes = info.results.slice(0, 20);
+        console.log(info);
+        const personajes = info.results;
 
         const elgaleria = document.getElementById("galeria");
         personajes.forEach((personaje) => {
